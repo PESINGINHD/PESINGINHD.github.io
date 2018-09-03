@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<!--
+  Laget ved hjelp av jsbin.com
+  Kilden kan redigeres via http://jsbin.com/oxonob/15/edit
+-->
+  <head>
+    <!-- "Hodet" på siden : her putter vi ting vi vil fortelle nettleseren om siden vår, men som vi ikke skal vise -->
+    <meta charset="UTF-8">
+    <title>En side om meg</title>
+  <style id="jsbin-css"></style></head>
+  
+  <body>
+    <!-- "Kroppen" til siden: her putter vi alt det vi vil vise på siden vår -->
+    
+    <!-- Hvorfor ikke starte med en overskrift for å si hei? -->
+    <h1>Hei, jeg heter <!-- Skriv navnet ditt her --></h1>
+    
+    <hr>
+    
+    <!-- Ta en kikk på disse linkene. Hvor fører de hen? -->
+    <h2><a href="#liker">Ting jeg liker</a>, <a href="#mat">mat</a> og <a href="#dyr">kjæledyr</a></h2>
+    
+    <hr>
+    
+    <!-- Fortell litt mer om tingene du liker -->
+    
+    <!-- Husker du linkene ovenfor? La du merke til at ID attributten under her er den samme som adressen til en av linkene? -->
+    <h3 id="liker"> Ting jeg liker</h3>
+    <p>Jeg liker masse forskjellige ting, men noen av dem er:</p>
+    <ul>
+      <li>Gitar</li>
+      <li>Kode</li>
+      <li>Gå ut med venner</li>
+    </ul>
+    
+    
+    <p><!-- Skriv litt om favoritt-hobbyen din her --></p>
+    
+    <hr>
+   
+    <h3 id="mat">Min favoritt-mat</h3>
+    <p>Jeg liker best å spise, det aller beste øverst:</p>
+    <ol>
+      <li>Pizza</li>
+      <li>Burger</li>
+      <li>Taco</li>
+    </ol>
+    
+	<a href="om_meg_side_2.html">Gå til Ønskelisten min</a>
+	
+    <hr>
+    
+    <h3 id="dyr">Mine kjæledyr</h3>
+    
+ 
+    
+   
+    <img src="hamster.png" alt="Hamster">
+    
+    
+    
+  <script>
+
+</script>
+</body>
+</html>
